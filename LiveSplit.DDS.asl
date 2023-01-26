@@ -3,7 +3,7 @@ state("DrugDealerSimulator-Win64-Shipping") {
 }
 
 startup {
-    for (int i = 2; i <= 25; i++) {
+    for (int i = 2; i <= 36; i++) {
         settings.Add(i.ToString(), true, i.ToString());
     }
 }
